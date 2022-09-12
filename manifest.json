@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "Image Downloader",
+    "description": "Image Downloader application",
+    "version": "0.0.1",
+    "icons": {
+        "512" : "logo/icon.png"
+    },
+    "action": {
+        "default_title": "Image Downloader"
+    },
+    "permissions": [],
+    "host_permissions": [
+        "*://*/*"
+    ],
+    "background": {
+        "service_worker": "service-worker.js"
+    },
+    "content_scripts": [{
+        "js": [
+            "lib/jquery.js",
+            "foreground.js"
+        ],
+        "matches": ["*://*/*"]
+    }]
+}
