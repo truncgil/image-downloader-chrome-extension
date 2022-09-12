@@ -1,7 +1,6 @@
 <div align="center">
-    <img src="https://raw.githubusercontent.com/truncgil/looperman-downloader/main/header-mid.png"/>
-    <h1>Looperman Mp3 Downloader (Chrome Extension)</h1>
-    <h3>Thanks to this Chrome extension, you can download files in mp3 format directly without logging in from looperman.com.</h3>
+    <h1>Image Downloader (Chrome Extension)</h1>
+    <h3>It creates a download button next to each image, allowing you to download all images on a web page.</h3>
 </div>
 
 You can use the extension directly by installing the package on Chrome.
